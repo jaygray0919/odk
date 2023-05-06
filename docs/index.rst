@@ -1,5 +1,12 @@
+
 Ontology Development Kit Guide
-==============================
+------------------------------
+
+:Project: `Ontology Development Kit <https://example.com/index.html>`_
+:Author: `Jay Gray <https://ontomatica.io>`_
+:Editor: `Randy Duodu <https://github.com/isolveit>`_
+:Organization: `Ontomatica <https://dailyfood.io>`_
+:Date: 30 April 2023
 
 This guide is intended for maintainers and editors of OBO ontologies.
 
@@ -9,12 +16,12 @@ This requires some technical steps.
 The second part of the guide is for day to day editing.
 
 **NOTE** this guide is adapted from the GO editors guide.
-Some instructions may still be GO-specific.
+Some instructions may be GO-specific.
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 🍱 Contents
 
    InitialSetup
    Configs
@@ -22,7 +29,6 @@ Some instructions may still be GO-specific.
    NewRepo
    DailyWorkflow
    CreateNewTerm
-   Synonyms
    DeletingAssertedSubClasses
    ObsoleteTerm
    MergeTerms

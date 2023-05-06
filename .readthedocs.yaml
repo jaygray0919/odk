@@ -7,7 +7,6 @@ build:
     python: "3.8"
   apt_packages:
     - default-jdk
-    - graphviz
 
 sphinx:
    configuration: docs/conf.py
