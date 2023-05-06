@@ -3,11 +3,11 @@
 import sys
 import os
 
-#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-#CURDIR = os.path.abspath(os.path.dirname(__file__))
+CURDIR = os.path.abspath(os.path.dirname(__file__))
 
-sys.path.append(os.path.abspath('exts'))
+#sys.path.append(os.path.abspath('exts'))
 
 
 # -- General configuration ------------------------------------------------
@@ -19,9 +19,8 @@ sys.path.append(os.path.abspath('exts'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_rtd_theme',
-    'sphinx_search.extension',
     'markdowntransform',
+    'sphinx_rtd_theme',
 #    'alabaster',
 ]
 
