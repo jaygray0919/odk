@@ -1,5 +1,5 @@
 
-See also [GO Editors Guide on Obsoletion])http://wiki.geneontology.org/index.php/Obsoleting_an_Existing_Ontology_Term)
+See also [GO Editors Guide on Obsoletion](https://wiki.geneontology.org/index.php/Obsoleting_an_Existing_Ontology_Term)
 
 # Obsoleting an Existing Ontology Term
 

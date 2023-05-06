@@ -1,4 +1,4 @@
-**NOTE** This documentation is incomplete, for now you may be better consulting the [http://wiki.geneontology.org/index.php/Installing_and_Using_git](GO Editor Docs]
+**NOTE** This documentation is incomplete, for now you may be better consulting the [GO Editor Docs](https://wiki.geneontology.org/index.php/Installing_and_Using_git)
 
 # Installing and Using git
 
