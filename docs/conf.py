@@ -5,9 +5,9 @@ import os
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-sys.path.append(os.path.abspath('exts'))
-
 CURDIR = os.path.abspath(os.path.dirname(__file__))
+
+sys.path.append(os.path.abspath('exts'))
 
 
 # -- General configuration ------------------------------------------------
@@ -19,8 +19,10 @@ CURDIR = os.path.abspath(os.path.dirname(__file__))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-  'markdowntransform',
-  'alabaster',
+    'sphinx_rtd_theme',
+    'sphinx_search.extension',
+    'markdowntransform',
+    'alabaster',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -106,6 +108,19 @@ html_theme = 'sphinx_rtd_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #html_theme_options = {}
+
+html_theme_options = {
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+# Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 3,
+    'includehidden': True,
+    'titles_only': False,
+    'body_max_width': 'none'
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []

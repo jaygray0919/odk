@@ -1,5 +1,5 @@
 Ontology Development Kit Guide
-============
+==============================
 
 This guide is intended for maintainers and editors of OBO ontologies.
 
