@@ -3,9 +3,9 @@
 import sys
 import os
 
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-CURDIR = os.path.abspath(os.path.dirname(__file__))
+#CURDIR = os.path.abspath(os.path.dirname(__file__))
 
 sys.path.append(os.path.abspath('exts'))
 
@@ -22,7 +22,7 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_search.extension',
     'markdowntransform',
-    'alabaster',
+#    'alabaster',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
