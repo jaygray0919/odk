@@ -1,0 +1,1 @@
+Please refer to https://oboacademy.github.io/obook/explanation/deleting-asserted-sub-classes/
