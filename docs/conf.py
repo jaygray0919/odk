@@ -7,7 +7,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 CURDIR = os.path.abspath(os.path.dirname(__file__))
 
-sys.path.append(os.path.abspath('exts'))
+#sys.path.append(os.path.abspath('exts'))
 
 
 # -- General configuration ------------------------------------------------
@@ -19,7 +19,7 @@ sys.path.append(os.path.abspath('exts'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'markdowntransform',
+    'myst_parser',
     'sphinx_rtd_theme',
 #    'alabaster',
 ]
@@ -31,12 +31,13 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-from recommonmark.parser import CommonMarkParser
+#from recommonmark.parser import CommonMarkParser
 
-source_parsers = {
-    '.md': CommonMarkParser,
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
 }
-source_suffix = ['.rst', '.md']
 
 # The encoding of source files.
 # source_encoding = 'utf-8-sig'
