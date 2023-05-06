@@ -13,3 +13,4 @@ docutils==0.18.1
 imagesize==1.4.1
 pygments==2.15.0
 readthedocs-sphinx-search==0.3.1
+myst-parser==1.0.0
