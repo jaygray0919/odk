@@ -1,4 +1,4 @@
-**NOTE** This documentation is incomplete, for now you may be better consulting the [http://wiki.geneontology.org/index.php/Protege_setup_for_GO_Eds](GO Editor Docs]
+**NOTE** This documentation is incomplete, for now you may be better consulting the [http://wiki.geneontology.org/index.php/Protege_setup_for_GO_Eds](GO Editor Docs)
 
 # Configuration
 

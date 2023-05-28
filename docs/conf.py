@@ -5,19 +5,15 @@ import os
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-# If the directory is relative to the documentation root, use os.path.abspath to make it absolute, like shown here.
 # directory relative to this conf file
 
 CURDIR = os.path.abspath(os.path.dirname(__file__))
 
 # -- General configuration ------------------------------------------------
 
-# If your documentation needs a minimal Sphinx version, state it here.
-#needs_sphinx = '1.0'
+# Add any Sphinx extension module names here, as strings.
+# They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
 extensions = [
     'myst_parser',
     'sphinx_rtd_theme',
@@ -187,14 +183,6 @@ html_static_path = ['_static']
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #html_show_copyright = True
-
-# If true, an OpenSearch description file will be output, and all pages will
-# contain a <link> tag referring to it.  The value of this option must be the
-# base URL from which the finished HTML is served.
-#html_use_opensearch = ''
-
-# This is the file name suffix for HTML files (e.g. ".xhtml").
-#html_file_suffix = None
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'odk'
